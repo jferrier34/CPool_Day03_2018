@@ -5,12 +5,6 @@
 ** Task05
 */
 
-void my_putchar(char c)
-{
-    write(1, &c, 1);
-}
-
-
 int my_print_comb(void)
 {
     int a = 48;
@@ -37,13 +31,6 @@ int my_print_comb(void)
 	   }
 	}
     }
-}
-    
-
-    int main(void)
-{
-    my_print_comb();
-    return(0);
 }
     
 	

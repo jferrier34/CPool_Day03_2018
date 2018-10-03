@@ -1,0 +1,25 @@
+/*
+** EPITECH PROJECT, 2018
+** my_print_digits.c
+** File description:
+** Task04
+*/
+
+void my_putchar(char c)
+{
+    write(1, &c, 1);
+}
+
+int my_isneg(int n);
+{
+    int n;
+
+    if (n < 0){
+	 my_putchar("N");
+    }
+    else {
+	 my_putchar("P");
+    }
+    return (0);
+}
+

@@ -21,6 +21,10 @@ int my_print_comb(void)
 	my_putchar (a);
 	my_putchar (b);
 	my_putchar (c);
+	if (((a - 48) * 100 + (b - 48) * 10 + c - 48 ) != 789 ){
+	my_putchar (',');
+	my_putchar (' ');
+        }
         c++;
 	
 	if (c > 57) {
@@ -30,7 +34,7 @@ int my_print_comb(void)
 		    a ++;
 		    b = a + 1;
 		    c = b + 1;
-		}
+	   }
 	}
     }
 }

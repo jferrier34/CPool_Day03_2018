@@ -7,13 +7,10 @@
 
 int my_isneg(int n);
 {
-    int n;
-
     if (n < 0){
-	my_putchar("N");
-    }
-    else {
-	my_putchar("P");
+	my_putchar('N');
+    } else {
+	my_putchar('P');
     }
     return (0);
 }

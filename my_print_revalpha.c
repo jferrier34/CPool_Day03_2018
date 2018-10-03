@@ -5,15 +5,14 @@
 ** task02
 */
 
-
-int my_print_alpha(void)
+int my_print_revalpha(void)
 {
     int letter;
 
-    letter = 96;
-    while (letter < 122) {
+    letter = 122;
+    while (letter > 96) {
 	my_putchar(letter);
-	letter = letter + 1;
+	letter = letter - 1;
     }
     return (0);
 }

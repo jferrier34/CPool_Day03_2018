@@ -19,8 +19,7 @@ int my_print_comb(void)
 	my_putchar (',');
 	my_putchar (' ');
         }
-        c++;
-	
+        c++;	
 	if (c > 57) {
 	    b++;
 	    c = b + 1;

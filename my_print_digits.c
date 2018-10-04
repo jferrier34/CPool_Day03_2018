@@ -6,7 +6,7 @@
 */
 
 
-int my_print_digit(void)
+int my_print_digits(void)
 {
     int number_digit = 48;
 	

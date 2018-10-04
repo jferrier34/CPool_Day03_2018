@@ -5,7 +5,7 @@
 ** Task4
 */
 
-int my_isneg(int n);
+int my_isneg(int n)
 {
     if (n < 0){
 	my_putchar('N');
